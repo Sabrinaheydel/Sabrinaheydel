@@ -55,16 +55,45 @@ Real-estate qualification, local-business acquisition and wellness-service demos
 
 ## Stack
 
+**Product, design & build**
+
 <p>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
   <img src="https://img.shields.io/badge/Lovable-FF4A64?style=flat-square&logoColor=white" alt="Lovable" />
   <img src="https://img.shields.io/badge/Webflow-146EF5?style=flat-square&logo=webflow&logoColor=white" alt="Webflow" />
+  <img src="https://img.shields.io/badge/Framer-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer" />
+  <img src="https://img.shields.io/badge/Bubble-1F5EFF?style=flat-square&logo=bubble&logoColor=white" alt="Bubble.io" />
+</p>
+
+**Data, engineering & deployment**
+
+<p>
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
+
+**Automation & AI**
+
+<p>
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
   <img src="https://img.shields.io/badge/Make-6D00CC?style=flat-square&logo=make&logoColor=white" alt="Make" />
-  <img src="https://img.shields.io/badge/PostHog-000000?style=flat-square&logo=posthog&logoColor=white" alt="PostHog" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+</p>
+
+**Growth, analytics & operations**
+
+<p>
+  <img src="https://img.shields.io/badge/Brevo-0B996E?style=flat-square&logo=brevo&logoColor=white" alt="Brevo" />
+  <img src="https://img.shields.io/badge/Mailchimp-FFE01B?style=flat-square&logo=mailchimp&logoColor=000000" alt="Mailchimp" />
+  <img src="https://img.shields.io/badge/PostHog-000000?style=flat-square&logo=posthog&logoColor=white" alt="PostHog" />
+  <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white" alt="Google Analytics" />
+  <img src="https://img.shields.io/badge/Search%20Console-458CF5?style=flat-square&logo=googlesearchconsole&logoColor=white" alt="Google Search Console" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Notion" />
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" />
+  <img src="https://img.shields.io/badge/Cal.com-292929?style=flat-square&logo=caldotcom&logoColor=white" alt="Cal.com" />
 </p>
 
 ---
