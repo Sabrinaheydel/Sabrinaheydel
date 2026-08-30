@@ -2,15 +2,15 @@
 
 # Sabrina Heydel
 
-### AI Product Builder · Digital Systems · Automation
+### AI Product Builder · Full-Stack Digital Systems
 
-**I turn complex business processes into simple, automated and measurable digital products.**
+**I turn complex business processes into simple, connected and measurable digital products.**
 
-From product strategy and UX to AI, automation, data and deployment.
+From product discovery and UX to data, APIs, automation, QA, analytics and deployment.
 
-[![Agence 360 Digital](https://img.shields.io/badge/Agence%20360%20Digital-1B1B2F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.agence360digital.fr/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sabrinaheydel)
-[![TalentFlow](https://img.shields.io/badge/TalentFlow-Live%20Demo-005CC5?style=for-the-badge&logo=vercel&logoColor=white)](https://talentflow-ai-dash.webflow.io/)
+[![Product Resume](https://img.shields.io/badge/Product%20Resume-Open-1B1B2F?style=for-the-badge&logo=readme&logoColor=white)](https://product-craft-suite-68.lovable.app/en)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sabrina-heydel-86021a23b/)
+[![Agence 360 Digital](https://img.shields.io/badge/Agence%20360%20Digital-Website-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=1B1B2F)](https://www.agence360digital.fr/)
 
 </div>
 
@@ -20,22 +20,22 @@ From product strategy and UX to AI, automation, data and deployment.
 
 | Focus | Examples | Outcome |
 |---|---|---|
-| **AI Products** | Copilots, internal tools, intelligent interfaces | Better decisions and faster workflows |
-| **Digital Systems** | Dashboards, CRM, portals, acquisition systems | One clear operational layer |
-| **Automation** | APIs, workflows, data flows, AI-assisted processes | Less repetitive work |
-| **Learning & Client Experiences** | Training platforms, member spaces, client portals | Structured delivery and better client experience |
-| **Product Strategy** | Business analysis, UX, architecture, delivery | Technology aligned with real needs |
+| **AI Products** | Copilots, intelligent interfaces, AI-ready workflows | Faster decisions and better user experiences |
+| **Digital Systems** | CRM, dashboards, portals, internal tools | One clear operational layer |
+| **Automation** | APIs, workflows, data flows, connected actions | Less repetitive work and fewer handoffs |
+| **Client & Learning Experiences** | Booking, training spaces, client portals | More structured delivery and follow-up |
+| **Product Strategy** | Discovery, UX, architecture, delivery | Technology aligned with real business needs |
 
 > **Every project starts with a business problem.**  
 > Not with a technology.
 
-`Business problem → Product strategy → UX → Architecture → Build → Automate → Measure`
+`Business problem → Product discovery → UX → Architecture → Build → Automate → Measure`
 
 ---
 
 ## Selected work
 
-### TalentFlow AI
+### 01 · TalentFlow AI
 
 **AI-assisted recruitment workspace** designed to turn fragmented recruiting workflows into one clear decision environment.
 
@@ -43,13 +43,10 @@ From product strategy and UX to AI, automation, data and deployment.
 Recruitment teams often manage candidate information, interviews, feedback and follow-up across disconnected tools, creating context switching and poor visibility on priorities.
 
 **Product**  
-A centralized bilingual recruitment workspace combining pipeline visibility, candidate decision support, interview coordination and a simulated AI Copilot experience.
+A bilingual recruitment workspace combining pipeline visibility, candidate decision support, interview coordination, guided demo flows, feedback and product analytics.
 
 **My role**  
-Product strategy · UX/UI · Product architecture · Build · Analytics · Production readiness
-
-**Result**  
-A coherent end-to-end product demo showing how a fragmented operational workflow can become one structured, understandable and measurable workspace.
+Product discovery · Workflow analysis · UX/UI · Front-end architecture · AI-assisted development · QA · Analytics instrumentation · Deployment
 
 **Core stack**  
 Next.js · React · TypeScript · PostHog EU · Webflow Cloud · GitHub Actions
@@ -57,11 +54,44 @@ Next.js · React · TypeScript · PostHog EU · Webflow Cloud · GitHub Actions
 [![Live Demo](https://img.shields.io/badge/Open-Live%20Demo-005CC5?style=flat-square)](https://talentflow-ai-dash.webflow.io/)
 [![Repository](https://img.shields.io/badge/View-Repository-1B1B2F?style=flat-square&logo=github&logoColor=white)](https://github.com/Sabrinaheydel/demo-talentflow-ai)
 
-> Portfolio demo using simulated data and deterministic AI behavior. No real candidate data is processed.
+> Portfolio demo using simulated data and AI-ready product architecture. No real candidate data is processed.
 
-### More case studies coming next
+### 02 · Real Estate Platform & CRM
 
-Real-estate qualification, local-business acquisition and wellness-service systems are being prepared to the same public portfolio standard.
+**Full-stack acquisition and CRM product demo** showing how a public website can feed an operational sales workflow instead of stopping at isolated forms.
+
+**Problem**  
+Real-estate teams receive demand through listings, calculators, valuation requests and candidate profiles, but those signals are often fragmented and require manual qualification.
+
+**Product**  
+A connected system where website interactions can become structured CRM leads with scoring, next actions, appointments, property matching and a secure public demo sandbox.
+
+**My role**  
+Business analysis · Product discovery · UX · System design · Data modelling · Supabase/RLS · Server authorization · Automation logic · QA · Demo architecture · Deployment
+
+**Core stack**  
+React · TanStack · TypeScript · Supabase · PostgreSQL · RLS · APIs · Brevo · GA4 · GitHub
+
+[![Guided Demo](https://img.shields.io/badge/Test-Guided%20CRM%20Demo-D4AF37?style=flat-square)](https://reims-gem-real-estate.lovable.app/demo)
+[![Repository](https://img.shields.io/badge/View-Repository-1B1B2F?style=flat-square&logo=github&logoColor=white)](https://github.com/Sabrinaheydel/demo-real-estate-reims-prestige)
+
+> Public beta using fictional data, isolated demo roles and simulated sensitive actions.
+
+### 03 · Product Resume
+
+**Bilingual interactive resume built as a small web product**, with responsive UX and recruiter-friendly PDF delivery.
+
+**Product**  
+FR/EN web resume, mobile-safe PDF export with clickable links, print-quality Chromium PDFs generated automatically in GitHub Actions and structured case studies for product work.
+
+**My role**  
+Product positioning · Information architecture · UX · React/TypeScript implementation · PDF workflow · QA · GitHub automation
+
+**Core stack**  
+React · TypeScript · TanStack Start · jsPDF · html2canvas-pro · Playwright/Chromium · GitHub Actions
+
+[![Live Resume](https://img.shields.io/badge/Open-Live%20Resume-005CC5?style=flat-square)](https://product-craft-suite-68.lovable.app/en)
+[![Repository](https://img.shields.io/badge/View-Repository-1B1B2F?style=flat-square&logo=github&logoColor=white)](https://github.com/Sabrinaheydel/Sabrina-product-resume)
 
 ---
 
@@ -71,18 +101,18 @@ Real-estate qualification, local-business acquisition and wellness-service syste
 <img height="20" src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /> <img height="20" src="https://img.shields.io/badge/Lovable-FF4A64?style=flat-square" alt="Lovable" /> <img height="20" src="https://img.shields.io/badge/Webflow-146EF5?style=flat-square&logo=webflow&logoColor=white" alt="Webflow" />
 
 **Development & data**  
-<img height="20" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img height="20" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img height="20" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=000000" alt="React" /> <img height="20" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" /> <img height="20" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+<img height="20" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img height="20" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img height="20" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=000000" alt="React" /> <img height="20" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" /> <img height="20" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img height="20" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
 
 **AI & automation**  
 <img height="20" src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" /> <img height="20" src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" /> <img height="20" src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" /> <img height="20" src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" /> <img height="20" src="https://img.shields.io/badge/Make-6D00CC?style=flat-square" alt="Make" />
 
 **Deployment & quality**  
-<img height="20" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> <img height="20" src="https://img.shields.io/badge/Webflow%20Cloud-146EF5?style=flat-square&logo=webflow&logoColor=white" alt="Webflow Cloud" /> <img height="20" src="https://img.shields.io/badge/PostHog-000000?style=flat-square&logo=posthog&logoColor=white" alt="PostHog" /> <img height="20" src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" alt="Sentry" />
+<img height="20" src="https://img.shields.io/badge/Webflow%20Cloud-146EF5?style=flat-square&logo=webflow&logoColor=white" alt="Webflow Cloud" /> <img height="20" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" /> <img height="20" src="https://img.shields.io/badge/PostHog-000000?style=flat-square&logo=posthog&logoColor=white" alt="PostHog" /> <img height="20" src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" alt="Sentry" />
 
 **Growth & operations**  
 <img height="20" src="https://img.shields.io/badge/Brevo-0B996E?style=flat-square&logo=brevo&logoColor=white" alt="Brevo" /> <img height="20" src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white" alt="Google Analytics" /> <img height="20" src="https://img.shields.io/badge/Search%20Console-458CF5?style=flat-square&logo=googlesearchconsole&logoColor=white" alt="Google Search Console" />
 
-<sub><strong>Also working with:</strong> JavaScript · REST APIs · JSON · Framer · Bubble.io · Canva · Perplexity · Mailchimp · Apollo.io · AnswerThePublic · Notion · Stripe · Cal.com · Whop · OVHcloud</sub>
+<sub><strong>Also working with:</strong> JavaScript · REST APIs · JSON · Webhooks · Framer · Bubble.io · Canva · Perplexity · Mailchimp · Apollo.io · AnswerThePublic · Notion · Stripe · Cal.com · Whop · OVHcloud</sub>
 
 ---
 
@@ -90,9 +120,9 @@ Real-estate qualification, local-business acquisition and wellness-service syste
 
 **01. Diagnose** · understand the workflow, friction and business objective  
 **02. Design** · define the product, UX and information architecture  
-**03. Architect** · choose the appropriate stack, data model and integrations  
+**03. Architect** · choose the appropriate stack, data model, permissions and integrations  
 **04. Build** · create the interface, logic and connected workflows  
-**05. Measure** · add observability, analytics and a feedback loop
+**05. Ship & measure** · QA, deploy, instrument usage and create a feedback loop
 
 ---
 
@@ -105,6 +135,6 @@ I work with businesses, agencies and product teams on digital products, AI-assis
 <div align="center">
 
 [![Website](https://img.shields.io/badge/Website-agence360digital.fr-1B1B2F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.agence360digital.fr/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sabrina%20Heydel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sabrinaheydel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sabrina%20Heydel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sabrina-heydel-86021a23b/)
 
 </div>
