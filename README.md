@@ -93,6 +93,45 @@ React · TypeScript · TanStack Start · jsPDF · html2canvas-pro · Playwright/
 [![Live Resume](https://img.shields.io/badge/Open-Live%20Resume-005CC5?style=flat-square)](https://product-craft-suite-68.lovable.app/en)
 [![Repository](https://img.shields.io/badge/View-Repository-1B1B2F?style=flat-square&logo=github&logoColor=white)](https://github.com/Sabrinaheydel/Sabrina-product-resume)
 
+### 04 · PSPO Coach
+
+**Grounded AI learning coach** built to prepare the Professional Scrum Product Owner I (PSPO I) certification, as a personal study tool.
+
+**Problem**  
+Certification prep is usually passive: reading a guide, then taking random practice tests. Learners forget, repeat the same mistakes, and generic AI chatbots can confidently invent rules that are not in the official source.
+
+**Product**  
+A bilingual (FR/EN) learning app in which every answer is traceable to the official Scrum Guide 2020:
+
+- **Daily challenge** (about 5 minutes): one animated capsule, three questions targeted at weak spots and one key term, with a day streak
+- **6 animated, narrated capsules** and **3 interactive diagrams** (Scrum Team, artifacts and commitments, events timeline)
+- **133 questions**: Scrum Guide rules, real-life scenarios and value measurement (Evidence-Based Management), with spaced repetition on mistakes
+- **Timed mock exam** (80 questions, 60 minutes, 85% pass mark), **mistake log** and **weekly report**
+- **47-term glossary**, a drag-and-drop sorting game and a 2-minute true/false game
+- **"Explain it to a sales rep"** mode: the learner explains a concept in their own words (typed or dictated) and the AI scores it against the guide
+- **"Ask the guide"**: answers only from the Scrum Guide, with exact quotes, and says *"I don't know"* when the answer is not in the source
+
+**How it is built**  
+- One self-contained web page (HTML, CSS, vanilla JavaScript), published as a Claude artifact. No framework, no external backend to maintain.
+- A Python build script generates the question bank as JSON and **checks that every quote exists word for word in the Scrum Guide** before publishing.
+- Animations and diagrams are hand-built SVG, with keyboard access, light and dark themes and reduced-motion support.
+- AI features call Claude with the relevant guide sections as the only context (retrieval-grounded prompting). Every quote the model returns is **verified in the browser against the source text**; unverified quotes are never shown.
+- Progress is stored privately per user; speech uses text-to-speech and dictation, with a text-only fallback.
+
+**My role**  
+Product discovery · Learning design · UX/UI · Content architecture · Prompt and guardrail design · Front-end development · QA
+
+**Core stack**  
+HTML · CSS · JavaScript · SVG · Python · JSON · Claude (Anthropic) · Playwright (QA)
+
+<p>
+  <img src="assets/pspo-coach/capsule.png" alt="Animated capsule: the Sprint cycle" width="32%" />
+  <img src="assets/pspo-coach/scenario.png" alt="Scenario question with its source quote" width="32%" />
+  <img src="assets/pspo-coach/vocabulary.png" alt="Glossary card: Definition of Done" width="32%" />
+</p>
+
+> Private personal tool. Content based on the Scrum Guide 2020 by Ken Schwaber and Jeff Sutherland and the Evidence-Based Management Guide by Scrum.org, both licensed CC BY-SA 4.0.
+
 ---
 
 ## Core stack
