@@ -45,6 +45,9 @@ Recruitment teams often manage candidate information, interviews, feedback and f
 **Product**  
 A bilingual recruitment workspace combining pipeline visibility, candidate decision support, interview coordination, guided demo flows, feedback and product analytics.
 
+**Expected value**  
+Hypothesis to validate with early adopters: **2–4 h saved per recruiter per week** on candidate preparation, interview coordination and feedback consolidation. Measured through prep time and guided-demo completion in PostHog.
+
 **My role**  
 Product discovery · Workflow analysis · UX/UI · Front-end architecture · AI-assisted development · QA · Analytics instrumentation · Deployment
 
@@ -66,6 +69,9 @@ Real-estate teams receive demand through listings, calculators, valuation reques
 **Product**  
 A connected system where website interactions can become structured CRM leads with scoring, next actions, appointments, property matching and a secure public demo sandbox.
 
+**Expected value**  
+Hypothesis to validate with a pilot agency: **3–5 h saved per agent per week** on manual lead qualification and follow-up planning, plus a faster first response to new leads.
+
 **My role**  
 Business analysis · Product discovery · UX · System design · Data modelling · Supabase/RLS · Server authorization · Automation logic · QA · Demo architecture · Deployment
 
@@ -83,6 +89,9 @@ React · TanStack · TypeScript · Supabase · PostgreSQL · RLS · APIs · Brev
 
 **Product**  
 FR/EN web resume, mobile-safe PDF export with clickable links, print-quality Chromium PDFs generated automatically in GitHub Actions and structured case studies for product work.
+
+**Value delivered**  
+One content update refreshes the web resume and both PDFs: no manual export, no out-of-sync versions.
 
 **My role**  
 Product positioning · Information architecture · UX · React/TypeScript implementation · PDF workflow · QA · GitHub automation
@@ -110,6 +119,9 @@ A bilingual (FR/EN) learning app in which every answer is traceable to the offic
 - **47-term glossary**, a drag-and-drop sorting game and a 2-minute true/false game
 - **"Explain it to a sales rep"** mode: the learner explains a concept in their own words (typed or dictated) and the AI scores it against the guide
 - **"Ask the guide"**: answers only from the Scrum Guide, with exact quotes, and says *"I don't know"* when the answer is not in the source
+
+**Expected value**  
+Target: pass PSPO I (85% or more) after six weeks at one hour a day, with progress, weak topics and a pass-probability estimate tracked in the app. The same mechanics (daily challenge, grounded answers, weekly report) can keep training participants active for weeks after a session.
 
 **How it is built**  
 - One self-contained web page (HTML, CSS, vanilla JavaScript), published as a Claude artifact. No framework, no external backend to maintain.
@@ -153,6 +165,50 @@ HTML · CSS · JavaScript · SVG · Python · JSON · Claude (Anthropic) · Play
 
 <sub><strong>Also working with:</strong> JavaScript · REST APIs · JSON · Webhooks · Framer · Bubble.io · Canva · Perplexity · Mailchimp · Apollo.io · AnswerThePublic · Notion · Stripe · Cal.com · Whop · OVHcloud</sub>
 
+### 05 · A360 OS & Radar 360
+
+**My own AI operating system, used daily to run my consulting activity.** A360 OS is the cockpit (priorities, tasks, knowledge, tools, validations). Radar 360 is its AI prospecting engine.
+
+**Problem**  
+As a solo consultant, prospecting, project framing and market watch were eating most of my week, at the expense of client delivery.
+
+**Product**  
+- **Radar 360** prepares about **20 qualified prospects every night**: research, verified contact and a draft message. I review them in **about 5 minutes each morning**; nothing is sent without my approval.
+- **A360 OS** brings priorities, tasks, knowledge and actions into one cockpit, with a sourced AI copilot and a validation center for sensitive actions.
+- **Weekly AI and market watch**: topic briefs indexed in the copilot's memory and reused when framing client projects.
+
+**Results**  
+- **About 15 h saved per week from the first week**, then **about twice as much (≈30 h/week)** once prospecting, project framing and AI/market watch were automated *(self-measured estimate)*.
+- **Controlled AI costs**: monthly budgets capped at **€8 for Radar 360** and **€4 for A360 OS**, using the lightest model suitable for each task.
+
+**What I learned**  
+An early recommendation did not fit a prospect's business. It revealed a qualification problem, which I fixed by separating facts from hypotheses, showing sources on every insight and requiring validation before any message goes out.
+
+**My role**  
+Product owner and builder: discovery, architecture, data model, prompts and guardrails, automation, QA, monitoring.
+
+**Core stack**  
+React · TypeScript · TanStack Start · Supabase (PostgreSQL, EU region) · LLM APIs · Sentry · PostHog · Lovable · Claude Code
+
+> Private tools used in production for my own activity. No public demo; walkthrough available on request.
+
+---
+
+## Use case framing template
+
+The grid I use before building anything, here filled in for the PSPO Coach.
+
+| Step | Question | PSPO Coach |
+|---|---|---|
+| **Business need** | What problem, for whom, how often? | Certification prep is passive and generic AI tools invent rules. |
+| **Target users** | Who uses it, who decides? | One learner, studying one hour a day. |
+| **Data access** | Which sources, which permissions? | Scrum Guide 2020 and EBM Guide (CC BY-SA 4.0), private progress per user. |
+| **Size** | What is the smallest useful version? | Question bank + mock exam first; capsules, games and prediction next. |
+| **Value** | What is the quantified expected gain? | Pass PSPO I (85% or more) in six weeks at one hour a day. |
+| **Success metrics** | How will we know? | Mock-exam scores, weak topics, daily streak, pass-probability estimate. |
+| **Guardrails** | What must never happen? | No answer without a verified quote; "I don't know" outside the source. |
+| **Hand-off** | What does the team need to run it? | README, build script that checks every quote, QA scripts. |
+
 ---
 
 ## How I work
@@ -160,8 +216,9 @@ HTML · CSS · JavaScript · SVG · Python · JSON · Claude (Anthropic) · Play
 **01. Diagnose** · understand the workflow, friction and business objective  
 **02. Design** · define the product, UX and information architecture  
 **03. Architect** · choose the appropriate stack, data model, permissions and integrations  
-**04. Build** · create the interface, logic and connected workflows  
-**05. Ship & measure** · QA, deploy, instrument usage and create a feedback loop
+**04. Build** · prototype fast with Claude Code and Lovable, then harden the logic and connected workflows  
+**05. Ship & measure** · QA, deploy, instrument usage and create a feedback loop  
+**06. Hand off** · document decisions, architecture and release gates so another team can run and scale it
 
 ---
 
