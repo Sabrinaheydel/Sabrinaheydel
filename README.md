@@ -8,11 +8,18 @@
 
 From product discovery and UX to data, APIs, automation, QA, analytics and deployment.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Open-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sabrina-heydel-portfolio.lovable.app/en)
 [![Product Resume](https://img.shields.io/badge/Product%20Resume-Open-1B1B2F?style=for-the-badge&logo=readme&logoColor=white)](https://product-craft-suite-68.lovable.app/en)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sabrina-heydel-86021a23b/)
 [![Agence 360 Digital](https://img.shields.io/badge/Agence%20360%20Digital-Website-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=1B1B2F)](https://www.agence360digital.fr/)
 
 </div>
+
+### Results at a glance
+
+| [**100**](https://sabrina-heydel-portfolio.lovable.app/en/projects/radar-360) | [**20**](https://sabrina-heydel-portfolio.lovable.app/en/projects/a360-os) | [**133**](https://sabrina-heydel-portfolio.lovable.app/en/projects/coach-pspo) |
+|:---:|:---:|:---:|
+| prospects targeted per week, each one verified and audited (Radar 360) | company audits prepared every night (A360 OS) | practice questions, including 20 scenarios (PSPO Coach) |
 
 ---
 
@@ -190,7 +197,10 @@ Product owner and builder: discovery, architecture, data model, prompts and guar
 **Core stack**  
 React · TypeScript · TanStack Start · Supabase (PostgreSQL, EU region) · LLM APIs · Sentry · PostHog · Lovable · Claude Code
 
-> Private tools used in production for my own activity. No public demo; walkthrough available on request.
+[![Showcase](https://img.shields.io/badge/View-A360%20OS%20Showcase-1B1B2F?style=flat-square&logo=github&logoColor=white)](https://github.com/Sabrinaheydel/a360-os-showcase)
+[![Case study](https://img.shields.io/badge/Read-Case%20Study-6D28D9?style=flat-square)](https://sabrina-heydel-portfolio.lovable.app/en/projects/a360-os)
+
+> Private tools used in production for my own activity. The public showcase presents the architecture with fictional data; live walkthrough available on request.
 
 ---
 
