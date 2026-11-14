@@ -185,7 +185,7 @@ As a solo consultant, prospecting, project framing and market watch were eating 
 - **Weekly AI and market watch**: topic briefs indexed in the copilot's memory and reused when framing client projects.
 
 **Results**  
-- **About 15 h saved per week from the first week**, then **about twice as much (≈30 h/week)** once prospecting, project framing and AI/market watch were automated *(self-measured estimate)*.
+- **More than 15 h saved per week** on prospecting, project framing and AI/market watch *(a low estimate)*.
 - **Controlled AI costs**: monthly budgets capped at **€8 for Radar 360** and **€4 for A360 OS**, using the lightest model suitable for each task.
 
 **What I learned**  
